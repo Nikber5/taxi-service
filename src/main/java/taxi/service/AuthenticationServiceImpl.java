@@ -8,7 +8,7 @@ import taxi.model.Driver;
 
 @Service
 public class AuthenticationServiceImpl implements AuthenticationService {
-    private static final Injector injector = Injector.getInstance("mate");
+    private static final Injector injector = Injector.getInstance("taxi");
     private final DriverService driverService = (DriverService) injector
             .getInstance(DriverService.class);
 
