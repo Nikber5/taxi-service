@@ -6,7 +6,8 @@ After registration, or login with existing account user (driver and user are the
 
 Technologies used:
 -
-- Backend: Java, JDBC, Servlets 
+- Backend: Java, JDBC, Servlets
+- Logger: Log4j
 - Frontend: HTML, CSS, JSP, JSTL 
 - Database: MySql, MySQLWorkbench, Remote MySQL
 - Web-server: Tomcat
@@ -18,7 +19,7 @@ Follow the link: https://polar-tor-20305.herokuapp.com/login
 
 Login as: bob, password: 1234 or register new user
 
-Or you canA:
+Or you can:
 - clone the project to your local repository 
 - create MySQL database by import from init_db.sql file
 - setup ConnectionUtil class by replacing mock values of constants with your own.
